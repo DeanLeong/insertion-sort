@@ -1,17 +1,21 @@
-function insertionSort(arr) {
+function insertionSort(array) {
   // loop over the array starting at index 1 incrementing
 
   // set the current value to a temp variable
 
-  // nest a loop starting at index 0 but dynmaicly decrementing 
-  // setting a condition if the nested value is greater than the value set the temp variable written above
+  // set the the next iterator for upcoming while loop to 1 less than i
 
-  // inside the nested loop set the nested value + 1 index to the nested value
+  // nest a while loop
+  // setting a condition if the nested value is greater than the value set the temp variable written above
+  // and if iterator is greater than or equals to 0
+
+  // inside the nested loop set the nested value + 1 index to the nested value index
+
+  // decrement nested iterator for the nested loop
 
   // inside the outer loop set the nested loop's value + 1 index to the temp variable written above
+
+  // return the array
 }
 
-let arr = [2, 1, 5, 3];
-insertionSort(arr);
-
-console.log(arr);
+console.log(insertionSort([2, 3, 6, 1, 7, 4, 5]));
